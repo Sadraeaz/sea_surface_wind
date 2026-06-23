@@ -10,7 +10,7 @@ Reads the OCN NetCDF file inside a Sentinel-1 `.SAFE` folder and produces three 
 
 - **Wind speed** (m/s) with direction arrows
 - **Wind direction** (degrees from North)
-- **Radial velocity** (m/s) — surface current component toward/away from satellite
+- **Radial velocity** (m/s) — surface current component toward/away from the satellite
 
 ---
 
@@ -35,11 +35,10 @@ After downloading, unzip the `.SAFE` folder and place the main NetCDF file (`s1*
 ```
 sea_surface_wind/
 ├── data/
-│   └── s1d-iw-ocn-vv-*.nc       ← your OCN NetCDF file here (not tracked by git)
+│   └── s1d-iw-ocn-vv-*.nc       ← your OCN NetCDF file here
 ├── ocn_wind.ipynb                ← main notebook
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 
 ---
